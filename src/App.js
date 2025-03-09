@@ -12,7 +12,7 @@ function App() {
       .then(dados => {
         setRacas(dados)
       })
-  })
+  }, [])
 
   return (
     <div className="App">
